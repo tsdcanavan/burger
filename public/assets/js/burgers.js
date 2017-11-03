@@ -21,7 +21,7 @@ $(function() {
       );
     });
   
-      $(".delete-cat").on("click", function(event) {
+      $(".delete-burger").on("click", function(event) {
         var id = $(this).data("id");
         
         // Send the PUT request.
@@ -40,7 +40,7 @@ $(function() {
       // Make sure to preventDefault on a submit event.
       event.preventDefault();
   
-      var newCat = {
+      var newBurger = {
         name: $("#ca").val().trim(),
         devoured: $("[name=devoured]:checked").val().trim()
       };
