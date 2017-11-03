@@ -1,7 +1,6 @@
 body {
   background: rgb(254,153,0);  
   background-image: url("/assets/img/burgertime-guy.jpg");
-  /* background-image: url("/assets/img/burgertimeInPlay.png"); */
   background-size: 20%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -9,8 +8,11 @@ body {
 }
 
 ul {
- background: rgb(96, 152, 209);
+ /* background: rgb(96, 152, 209); */
+border-style: solid;
+border-color: red;
  width: 30%;
+ margin: auto;
 }
 
 li {
@@ -20,9 +22,9 @@ li {
   }
 
 h1 {
-  background: rgb(96, 152, 209);
-  width: 50%;
-  margin-left: 25%;
+  /* background: rgb(96, 152, 209); */
+  width: 30%;
+  margin: auto;
 }
   
   .label {
@@ -36,6 +38,14 @@ h1 {
   }
   
   .form-group {
+    padding-bottom: 10px;
     margin-bottom: 5px;
   }
   
+.burger-add {
+  border-style: solid;
+  border-color: red;
+   width: 30%;
+   margin: auto;
+   text-align: center;
+}
