@@ -10,3 +10,5 @@ burger_name VARCHAR(100) ,
 devoured BOOLEAN, 
 datestamp TIMESTAMP, 
 PRIMARY KEY (id));
+
+DESCRIBE burgers;
